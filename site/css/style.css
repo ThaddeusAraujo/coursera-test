@@ -1,0 +1,54 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Comic Sans MS",  sans-serif;
+}
+
+
+p {
+	margin-block-start: 10;
+  margin-block-end: 0;
+	padding: 10px;
+}
+
+
+#title {
+	margin: 30px;
+	text-align: center;;
+}
+
+
+.box {
+	background-color: gray;
+	border: 2px black solid;
+	width: 50%;
+	margin: 10px;
+  float: left;
+
+	
+}
+
+.caixinha {
+	text-align: center;
+	font-weight: bold;
+	width: 125px;
+	border: 2px black solid;
+	float: right;
+	
+}
+
+
+.chicken {
+	color: white;
+	background-color: salmon;
+}
+.beef {
+	color: white;
+	background-color: darkred;
+}
+.sushi {
+	color: black;
+	background-color: yellow;
+}
