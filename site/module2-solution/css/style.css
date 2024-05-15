@@ -95,7 +95,7 @@ overflow: hidden;
 
 .b1,.b2,.b3 {
     
-width: calc(100% - 20px);
+width: calc(100% - 30px);
 overflow: hidden;
 
             }
