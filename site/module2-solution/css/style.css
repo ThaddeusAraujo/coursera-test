@@ -1,28 +1,31 @@
 
-* {
+*, body {
 	box-sizing: border-box;
-	margin-block-start: 10;
-  margin-block-end: 0;
+	margin: 0;
   font-family: "Comic Sans MS",  sans-serif;
+  font-size: 16px;
 }
 
 
 h1 {
-	margin: 20px 10px 30px 10px;
+	margin: 30px;
+	font-size: 175%;
 	text-align: center;
 }
 
-
 p {
-	padding: 10px;
+	margin-block-start: 15px;
+  margin-block-end: 5px;
+	padding: 15px;
+	width: 100%;
 }
 
 
 .box {
 	background-color: grey;
 	border: 2px black solid;
-	width: 30%;
-	margin: 10px;
+	margin-left: 15px;
+	margin-bottom: 15px;
 	float: left;
 }
 
@@ -30,6 +33,7 @@ p {
 .caixinha {
 	text-align: center;
 	font-weight: bold;
+	font-size: 125%;
 	width: 125px;
 	border: 2px black solid;
 	float: right;
@@ -55,12 +59,45 @@ p {
 
 
 
-.b1{
 
-}
-.b2{
+/*** large ***/
+@media (min-width: 992px){
 
-}
-.b3{
+.b1,.b2,.b3 {
+    
+width:calc(33.33% - 20px);
+overflow: hidden;
 
+        }
 }
+
+
+/*** medium ***/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.b1,.b2 {
+    
+width:calc(50% - 25px);
+overflow: hidden;
+
+        }
+.b3 {
+
+	width: calc(100% - 35px);
+
+    }
+}
+
+
+/*** small ***/
+
+@media (max-width: 767px){
+
+.b1,.b2,.b3 {
+    
+width: calc(100% - 20px);
+overflow: hidden;
+
+            }
+}
+
