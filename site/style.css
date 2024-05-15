@@ -1,0 +1,57 @@
+
+header li {
+	font-style:Italic;
+}
+
+body li {
+	font-family:sans-serif;
+	font-weight: bold;
+}
+
+section div:nth-child(odd) {
+	color: orangered;
+	font-size:20px;
+	background-color: lightgrey;
+	border: 1px solid dimgrey;
+	width: 150;
+	text-align: right;
+	margin: 1px;
+}
+
+section div:nth-child(even) {
+	color: blue;
+	font-size:20px;
+	background-color: lightgrey;
+	border: 1px solid lightslategrey;
+	width: 150;
+	margin: 1px;
+}
+
+section {
+	border: 2px solid black;
+	padding: 5px;
+	margin: 10px;
+	width: 152;
+}
+
+a:link, a:visited{
+  font-size: 20;
+  color:red;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  border: 1px solid blue;
+  margin-bottom: 2px;
+}
+
+a:hover {
+  font-style:italic;
+  border: 1px solid lightpink;
+  color: yellowgreen;
+}
+
+a:active {
+  font-family:sans-serif;
+  
+}
+
