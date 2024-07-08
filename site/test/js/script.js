@@ -19,7 +19,7 @@ var allCategoriesUrl =
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
 var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl =
-  "https://node-in-docker.onrender.com/menu-items?category=";
+  "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items?category=";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
