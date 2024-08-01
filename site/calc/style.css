@@ -10,7 +10,7 @@ body {
     
     display: flex;
     margin-top: 10%;   
-    background-color: lightseagreen;
+    background-color: rgb(28, 117, 113);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -39,6 +39,7 @@ h1 {
     height: 150px;
     border: solid white 5px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
@@ -62,19 +63,32 @@ h1 {
     margin-top: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 22px;
-    
 }
+    
+.banner {
+
+    position: absolute;
+    z-index: -1;
+    height: 55%;
+    width: 100%;
+
+    background: linear-gradient(261deg,#6094c4,#8ed5b5,#cdd1af);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+}
+
 
 section {
     
     display: flex;
     justify-content: center;
     width: 600px;
-    height: 500px;
+    height: 400px;
     background-color: aquamarine;
     border: solid white 5px;
     border-radius: 30px;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 }
 
@@ -101,3 +115,16 @@ input[type=text] {
     }
 
 }
+
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
