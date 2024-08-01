@@ -1,4 +1,4 @@
-function res(event){
+function res(){
 
     
 
