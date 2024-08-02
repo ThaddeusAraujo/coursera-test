@@ -136,7 +136,7 @@ input[type=text] {
 }
 
 
-.subtitulo {
+.subtitulo, .subtitulo2 {
     
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -180,13 +180,13 @@ input[type=text] {
     }
     button {
         transition-duration: 0.4s;
-        margin-left: 20%;
+        margin-left: 13%;
       }
       .subtitulo, .subtitulo2{
-        margin-left: 22%;
+        margin-left: 10%;
     }
     .campo{
-        margin-left: 26%;
+        margin-left: 23%;
     }
     .titulo, .titulo2{
         font-size: 18px;
