@@ -24,7 +24,7 @@ body{
     grid-template-rows: 1fr;
     background-color: #E1F1E8;
     gap: 10px;
-    width: 80%;
+    width: 88%;
     border-radius: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
@@ -176,20 +176,20 @@ input[type=text] {
   @media (max-width: 750px){
     #resultado, #resultado2{
         margin: auto;
-        margin-left: 26%;
+        margin-left: 25%;
     }
     button {
         transition-duration: 0.4s;
         margin-left: 20%;
       }
       .subtitulo, .subtitulo2{
-        margin-left: 23%;
+        margin-left: 22%;
     }
     .campo{
         margin-left: 26%;
     }
     .titulo, .titulo2{
-        font-size: 19px;
+        font-size: 18px;
         margin-bottom: 20px;
     }
   }
